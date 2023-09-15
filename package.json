@@ -1,0 +1,26 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.0.3",
+    "docx-preview": "^0.1.18",
+    "jquery": "^3.7.1",
+    "mammoth": "^1.6.0",
+    "vue": "^3.3.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.18",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
